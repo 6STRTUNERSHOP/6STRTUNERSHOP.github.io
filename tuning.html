@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Precios</title>
+</head>
+<body>
+    <h1>Calculadora de Precios de Items</h1>
+
+    <div class="item">
+        <label for="ruedas">Ruedas:</label>
+        <input type="number" id="ruedas" value="0">
+    </div>
+
+    <div class="item">
+        <label for="guardabarros">Guardabarros:</label>
+        <input type="number" id="guardabarros" value="0">
+    </div>
+
+    <div class="item">
+        <label for="faldones">Faldones:</label>
+        <input type="number" id="faldones" value="0">
+    </div>
+
+    <div class="item">
+        <label for="parachoques-frontal">Parachoques Frontal:</label>
+        <input type="number" id="parachoques-frontal" value="0">
+    </div>
+
+    <div class="item">
+        <label for="aleron">Aleron:</label>
+        <input type="number" id="aleron" value="0">
+    </div>
+
+    <div class="item">
+        <label for="suspension">Suspension:</label>
+        <input type="number" id="suspension" value="0">
+    </div>
+
+    <div class="item">
+        <label for="frenos">Frenos:</label>
+        <input type="number" id="frenos" value="0">
+    </div>
+
+    <div class="item">
+        <label for="parachoques-trasero">Parachoques Trasero:</label>
+        <input type="number" id="parachoques-trasero" value="0">
+    </div>
+
+    <div class="item">
+        <label for="motor">Motor:</label>
+        <input type="number" id="motor" value="0">
+    </div>
+
+    <div class="item">
+        <label for="capot">Capot:</label>
+        <input type="number" id="capot" value="0">
+    </div>
+
+    <div class="item">
+        <label for="turbo">Turbo:</label>
+        <input type="number" id="turbo" value="0">
+    </div>
+
+    <div class="item">
+        <label for="bocina">Bocina:</label>
+        <input type="number" id="bocina" value="0">
+    </div>
+
+    <div class="item">
+        <label for="caja-de-cambios">Caja de Cambios:</label>
+        <input type="number" id="caja-de-cambios" value="0">
+    </div>
+
+    <div class="item">
+        <label for="xenon">Xenon:</label>
+        <input type="number" id="xenon" value="0">
+    </div>
+
+    <div class="item">
+        <label for="vidrios-polarizados">Vidrios Polarizados:</label>
+        <input type="number" id="vidrios-polarizados" value="0">
+    </div>
+
+    <div class="item">
+        <label for="diseno-de-neon">Diseño de Neon:</label>
+        <input type="number" id="diseno-de-neon" value="0">
+    </div>
+
+    <div class="item">
+        <label for="placa-nueva">Placa Nueva:</label>
+        <input type="number" id="placa-nueva" value="0">
+    </div>
+
+    <div class="item">
+        <label for="extras">Extras:</label>
+        <input type="number" id="extras" value="0">
+    </div>
+
+    <div class="item">
+        <label for="livery">Livery:</label>
+        <input type="number" id="livery" value="0">
+    </div>
+
+    <div class="item">
+        <label for="pintura-primaria">Pintura Primaria:</label>
+        <input type="number" id="pintura-primaria" value="0">
+    </div>
+
+    <div class="item">
+        <label for="pintura-secundaria">Pintura Secundaria:</label>
+        <input type="number" id="pintura-secundaria" value="0">
+    </div>
+
+    <div class="item">
+        <label for="tipo-de-pintura">Tipo de Pintura:</label>
+        <input type="number" id="tipo-de-pintura" value="0">
+    </div>
+
+    <div class="item">
+        <label for="volante">Volante:</label>
+        <input type="number" id="volante" value="0">
+    </div>
+
+    <div class="item">
+        <label for="color-de-humo">Color de Humo:</label>
+        <input type="number" id="color-de-humo" value="0">
+    </div>
+
+    <div class="item">
+        <label for="interior">Interior:</label>
+        <input type="number" id="interior" value="0">
+    </div>
+
+    <div class="item">
+        <label for="tablero">Tablero:</label>
+        <input type="number" id="tablero" value="0">
+    </div>
+
+    <div class="item">
+        <label for="neones-activos">Neones Activos:</label>
+        <input type="number" id="neones-activos" value="0">
+    </div>
+
+    <div class="item">
+        <label for="color-de-xenon">Color de Xenon:</label>
+        <input type="number" id="color-de-xenon" value="0">
+    </div>
+
+    <div class="item">
+        <label for="color-neon">Color Neon:</label>
+        <input type="number" id="color-neon" value="0">
+    </div>
+
+    <div class="item">
+        <label for="spray-camaleon">Spray Camaleón:</label>
+        <input type="number" id="spray-camaleon" value="0">
+    </div>
+
+    <div class="item">
+        <label for="partes-esteticas">Partes Estéticas:</label>
+        <input type="number" id="partes-esteticas" value="0">
+    </div>
+
+    <button onclick="calcularPrecio()">Calcular Precio</button>
+
+    <p>Precio Total: $<span id="precio-total">0</span></p>
+    <p>Cantidad Total de Materiales:</p>
+    <ul id="materiales-list"></ul>
+
+    <script src="script2.js"></script>
+</body>
+</html>
+
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Motor:</span>
+    <input type="number" id="motor" value="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Turbo:</span>
+    <input type="number" id="turbo" value="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Caja de Cambios:</span>
+    <input type="number" id="caja-de-cambios" value="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Suspension:</span>
+    <input type="number" id="suspension" value="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Frenos:</span>
+    <input type="number" id="frenos" value="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
