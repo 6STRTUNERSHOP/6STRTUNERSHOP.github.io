@@ -72,4 +72,3 @@ botonCalcular.addEventListener('click', mostrarResultado);
 const botonCalcular2 = document.querySelector('.btn-dark');
 botonCalcular2.addEventListener('click', mostrarResultado);
 
-
