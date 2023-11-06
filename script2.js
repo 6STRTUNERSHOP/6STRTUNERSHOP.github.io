@@ -37,6 +37,7 @@ const materiales = {
     'color-neon': { chatarra: 400 },
     'spray-camaleon': { chatarra: 2000 },
     'partes-esteticas': { chatarra: 450 },
+    'LivMod': { chatarra: 550 }
 };
 
 function calcularPrecio() {
@@ -72,6 +73,7 @@ function calcularPrecio() {
     const cantidadColorNeon = obtenerCantidad('color-neon');
     const cantidadSprayCamaleon = obtenerCantidad('spray-camaleon');
     const cantidadPartesEsteticas = obtenerCantidad('partes-esteticas');
+    const cantidadLivMod = obtenerCantidad('LivMod');
 
     // Calcular el precio total para cada item
     const precioTotalRuedas = calcularPrecioItem('ruedas', cantidadRuedas);
@@ -105,6 +107,7 @@ function calcularPrecio() {
     const precioTotalColorNeon = calcularPrecioItem('color-neon', cantidadColorNeon);
     const precioTotalSprayCamaleon = calcularPrecioItem('spray-camaleon', cantidadSprayCamaleon);
     const precioTotalPartesEsteticas = calcularPrecioItem('partes-esteticas', cantidadPartesEsteticas);
+    const precioTotalLivMod = calcularPrecioItem('LivMod', cantidadLivMod);
 
     // Calcular el precio total
     const precioTotal = precioTotalRuedas +
@@ -137,7 +140,8 @@ function calcularPrecio() {
                        precioTotalColorDeXenon +
                        precioTotalColorNeon +
                        precioTotalSprayCamaleon +
-                       precioTotalPartesEsteticas;
+                       precioTotalPartesEsteticas+
+                       precioTotalLivMod;
 
     // Mostrar el precio total
     document.getElementById('precio-total').textContent = precioTotal.toFixed(2);

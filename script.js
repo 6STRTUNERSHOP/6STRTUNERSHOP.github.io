@@ -10,7 +10,7 @@ function calcularTotalMecanica() {
         { id: 'filtroCombustible', precio: 400 },
         { id: 'chapasMetalicas', precio: 100 },
         { id: 'partesMotor', precio: 100 },
-        { id: 'ejeTransmision', precio: 100 },
+        { id: 'ejeTransmision', precio: 200 },
         { id: 'pastillasFreno', precio: 400 }
     ];
 
@@ -29,11 +29,13 @@ function calcularTotalMecanica() {
 function calcularTotalHerramientas() {
     const productosHerramientas = [
         { id: 'ganzua', precio: 500 },
-        { id: 'gato', precio: 100 },
+        { id: 'gato', precio: 300 },
         { id: 'kitReparacion', precio: 400 },
         { id: 'kitReparacionAvanzado', precio: 1500 },
         { id: 'ganzua2', precio: 800 },
-        { id: 'ganzua2M', precio: 500 }
+        { id: 'ganzua2M', precio: 500 },
+        { id: 'RDR', precio: 350 },
+        { id: 'RNO', precio: 350 }
     ];
 
     let total = 0;
@@ -69,3 +71,4 @@ botonCalcular.addEventListener('click', mostrarResultado);
 
 const botonCalcular2 = document.querySelector('.btn-dark');
 botonCalcular2.addEventListener('click', mostrarResultado);
+
