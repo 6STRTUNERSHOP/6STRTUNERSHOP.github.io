@@ -34,8 +34,8 @@ function calcularTotalHerramientas() {
         { id: 'kitReparacionAvanzado', precio: 1500 },
         { id: 'ganzua2', precio: 800 },
         { id: 'ganzua2M', precio: 500 },
-        { id: 'RDR', precio: 350 },
-        { id: 'RNO', precio: 350 }
+        { id: 'ruedasdrift', precio: 350 },
+        { id: 'ruedasnormales', precio: 350 }
     ];
 
     let total = 0;
@@ -71,4 +71,5 @@ botonCalcular.addEventListener('click', mostrarResultado);
 
 const botonCalcular2 = document.querySelector('.btn-dark');
 botonCalcular2.addEventListener('click', mostrarResultado);
+
 
