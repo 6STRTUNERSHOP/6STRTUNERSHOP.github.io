@@ -1,17 +1,17 @@
 // Función para calcular el costo total de los productos mecánicos
 function calcularTotalMecanica() {
     const productosMecanicos = [
-        { id: 'puerta', precio: 100 },
-        { id: 'neumatico', precio: 100 },
-        { id: 'maletero', precio: 100 },
-        { id: 'capot', precio: 100 },
-        { id: 'discoEmbrague', precio: 400 },
-        { id: 'radiador', precio: 400 },
-        { id: 'filtroCombustible', precio: 400 },
-        { id: 'chapasMetalicas', precio: 100 },
-        { id: 'partesMotor', precio: 100 },
-        { id: 'ejeTransmision', precio: 200 },
-        { id: 'pastillasFreno', precio: 400 }
+        { id: 'puerta', precio: 60 },
+        { id: 'neumatico', precio: 60 },
+        { id: 'maletero', precio: 60 },
+        { id: 'capot', precio: 60 },
+        { id: 'discoEmbrague', precio: 500 },
+        { id: 'radiador', precio: 500 },
+        { id: 'filtroCombustible', precio: 500 },
+        { id: 'chapasMetalicas', precio: 60 },
+        { id: 'partesMotor', precio: 60 },
+        { id: 'ejeTransmision', precio: 60 },
+        { id: 'pastillasFreno', precio: 500 }
     ];
 
     let total = 0;
@@ -28,12 +28,12 @@ function calcularTotalMecanica() {
 
 function calcularTotalHerramientas() {
     const productosHerramientas = [
-        { id: 'ganzua', precio: 500 },
+        { id: 'ganzua', precio: 550 },
         { id: 'gato', precio: 300 },
-        { id: 'kitReparacion', precio: 400 },
-        { id: 'kitReparacionAvanzado', precio: 1500 },
-        { id: 'ganzua2', precio: 800 },
-        { id: 'ganzua2M', precio: 500 },
+        { id: 'kitReparacion', precio: 300 },
+        { id: 'kitReparacionAvanzado', precio: 1350 },
+        { id: 'ganzua2', precio: 1500 },
+        { id: 'ganzua2M', precio: 400 },
         { id: 'ruedasdrift', precio: 350 },
         { id: 'ruedasnormales', precio: 350 }
     ];
