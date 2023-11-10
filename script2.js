@@ -1,4 +1,4 @@
-const factorChatarra = 1.35;
+const factorChatarra = 1.0;
 const factorMetalChatarra = 8.5;
 const factorPlastico = 8;
 const factorGoma = 8.3;
