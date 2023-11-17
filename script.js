@@ -10,7 +10,7 @@ function calcularTotalMecanica() {
         { id: 'filtroCombustible', precio: 500 },
         { id: 'chapasMetalicas', precio: 60 },
         { id: 'partesMotor', precio: 60 },
-        { id: 'ejeTransmision', precio: 60 },
+        { id: 'ejeTransmision', precio: 500 },
         { id: 'pastillasFreno', precio: 500 }
     ];
 
