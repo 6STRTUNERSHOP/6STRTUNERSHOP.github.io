@@ -28,12 +28,12 @@ function calcularTotalMecanica() {
 
 function calcularTotalHerramientas() {
     const productosHerramientas = [
-        { id: 'ganzua', precio: 550 },
+        { id: 'ganzua', precio: 600 },
         { id: 'gato', precio: 300 },
         { id: 'kitReparacion', precio: 300 },
-        { id: 'kitReparacionAvanzado', precio: 1350 },
+        { id: 'kitReparacionAvanzado', precio: 1500 },
         { id: 'ganzua2', precio: 1500 },
-        { id: 'ganzua2M', precio: 400 },
+        { id: 'ganzua2M', precio: 450 },
         { id: 'ruedasdrift', precio: 350 },
         { id: 'ruedasnormales', precio: 350 }
     ];
