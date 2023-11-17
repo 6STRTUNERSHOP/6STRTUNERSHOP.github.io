@@ -31,7 +31,7 @@ function calcularTotalHerramientas() {
         { id: 'ganzua', precio: 600 },
         { id: 'gato', precio: 300 },
         { id: 'kitReparacion', precio: 300 },
-        { id: 'kitReparacionAvanzado', precio: 1500 },
+        { id: 'kitReparacionAvanzado', precio: 1550 },
         { id: 'ganzua2', precio: 1500 },
         { id: 'ganzua2M', precio: 450 },
         { id: 'ruedasdrift', precio: 350 },
